@@ -1,9 +1,7 @@
-"use strict";
-
 const username = "John Doe";
-typeof username === "strng";
+typeof username === "string";
 
-if (!"serviceWorker" in navigator) {
+if (!("serviceWorker" in navigator)) {
   console.log("Service Worker not supported");
 }
 
